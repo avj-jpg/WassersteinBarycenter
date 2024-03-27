@@ -1,0 +1,3 @@
+torus
+double-torus
+stanford-bunny
