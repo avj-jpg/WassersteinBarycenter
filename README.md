@@ -29,7 +29,7 @@ To use the code in this repository, you need to install and set up the necessary
      ```
      git clone --single-branch --branch mfem-jkop https://github.com/pazner/mfem.git
      cd mfem
-     make parallel -j 4
+     make parallel -j 4 MFEM_USE_ZLIB=YES
      cd ../
      ```
 Having successfully built all the dependencies, you can proceed to build the code in this repository by following these instructions:
