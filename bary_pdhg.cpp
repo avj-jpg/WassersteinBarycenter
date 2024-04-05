@@ -12,7 +12,7 @@
 #include "bary_rhs.hpp"
 
 // optimization solver
-#include "../wass/brent.hpp"
+#include "brent.hpp"
 
 using namespace std;
 using namespace mfem;
